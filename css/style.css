@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: aqua;
+    height: 100vh;
+}
+
+h1 {
+    color: black;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(80, 80, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.botonIngresar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    padding: 24px 48px;
+    border-radius: 50px;
+    margin: 30px auto;
+    background-color: rgb(12, 0, 44);
+}
+
+button {
+    color: bisque;
+}
