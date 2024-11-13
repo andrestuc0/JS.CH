@@ -7,15 +7,15 @@ function verificarNota() {
         let nota = parseInt(prompt("Ingresa tu nota"));
         if (nota <= 3) {
             alert("Recursas")
-           
+
         } else if (nota <= 6) {
             alert(
                 "Desaprobaste")
-            
+
         } else {
             alert("Felicidades aprobaste!")
-           
+
         }
     }
-    
+
 }
