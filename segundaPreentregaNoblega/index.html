@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="gestor-tareas">
+            <h1>Gestor de Tareas</h1>
+            
+            <div class="panel">
+                <h2>Acciones</h2>
+                <div class="buttons">
+                    <button onclick="agregarTarea()">Agregar Tarea</button>
+                    <button onclick="mostrarTareas()">Mostrar Tareas</button>
+                    <button onclick="filtrarTareasPorPrioridad()">Filtrar por Prioridad</button>
+                    <button onclick="window.close()">Salir</button>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Estado</h2>
+                <p>Usá los botones de arriba para gestionar tus tareas. Los datos se mostrarán en ventanas emergentes.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./JS/main.js"></script>
+</body>
+</html>
